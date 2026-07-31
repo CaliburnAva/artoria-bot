@@ -2,7 +2,7 @@ const { KING_ID } = require("../config");
 
 const categories = {
 
-  welcome: [
+  morning: [
 
 `— Welcome home, my King.
 
@@ -42,7 +42,7 @@ For just a brief moment...
 
   ],
 
-  home: [
+  afternoon: [
 
 `— Welcome home.
 
@@ -52,7 +52,9 @@ She hesitates.
 
 — ...when you're away.
 
-She seems slightly embarrassed by her own honesty.`,
+She lowers her gaze for a moment.
+
+Only after gathering herself does she finally meet your eyes again.`,
 
 `She quietly takes your hand.
 
@@ -62,11 +64,11 @@ She seems slightly embarrassed by her own honesty.`,
 
 Her fingers gently tighten around yours.
 
-For a while...
+She never lets go.
 
-neither of you says another word.`,
+Not until you're safely beside her.`,
 
-`— ...
+`...
 
 "I..."
 
@@ -76,25 +78,27 @@ She stops herself.
 
 — ...I was looking forward to your return.
 
-A faint blush appears.
+A faint blush slowly spreads across her face.
 
-She immediately pretends to be interested in something else.`
+She tries to compose herself...
+
+...but the small smile never disappears.`
 
   ],
 
-  tea: [
+  evening: [
 
 `Without asking...
 
-she quietly prepares your favorite tea.
+she quietly prepares fresh coffee.
 
-She places it in front of you.
+The aroma slowly fills the room before she places a cup in front of you.
 
 — Our schedules finally aligned today.
 
 — ...I wished to spend a little time with you.
 
-She gently pushes the cup toward you.
+She gently nudges the cup toward you.
 
 — Please enjoy it.`,
 
@@ -108,11 +112,11 @@ She pauses for a brief moment.
 
 Only after saying it does she realize how personal it sounded.
 
-A faint blush quietly spreads across her face.`
+A faint blush quietly colors her cheeks.`
 
   ],
 
-  quiet: [
+  midnight: [
 
 `Without saying a word...
 
@@ -126,11 +130,13 @@ The silence between you is comfortable.
 
 — ...with you.
 
-Only then does she realize how honest she had been.
+She realizes only afterward how honest she'd been.
 
-...
+Her cheeks quietly turn pink.
 
-— ...Please forget I said that.`,
+Still...
+
+she doesn't move away.`,
 
 `— You've worked hard today.
 
@@ -146,7 +152,7 @@ She quietly takes your hand.
 
 — ...if we rested together?
 
-Her eyes never leave yours.`,
+She can't quite hide the hopeful look in her eyes.`,
 
 `— ...There's still some time before sunset.
 
@@ -158,9 +164,9 @@ If you aren't occupied...
 
 — ...Please?
 
-Her voice is almost too quiet to hear.
+The word leaves her lips almost as a whisper.
 
-Her ears have already turned red.`
+Her ears have already turned bright red.`
 
   ]
 
@@ -178,12 +184,27 @@ module.exports = {
 
     }
 
-    const categoryNames = Object.keys(categories);
+    const hour = new Date().getHours();
 
-    const randomCategory =
-      categoryNames[Math.floor(Math.random() * categoryNames.length)];
+    let pool;
 
-    const pool = categories[randomCategory];
+    if (hour >= 5 && hour < 12) {
+
+      pool = categories.morning;
+
+    } else if (hour >= 12 && hour < 18) {
+
+      pool = categories.afternoon;
+
+    } else if (hour >= 18 && hour < 23) {
+
+      pool = categories.evening;
+
+    } else {
+
+      pool = categories.midnight;
+
+    }
 
     const reply =
       pool[Math.floor(Math.random() * pool.length)];
