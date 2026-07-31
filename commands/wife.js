@@ -1,3 +1,5 @@
+const { KING_ID } = require("../config");
+
 const responses = [
 
 `"Welcome home, my King."
@@ -161,7 +163,16 @@ neither of you says another word.`
 ];
 
 module.exports = {
+
   execute(message) {
+
+    if (message.author.id !== KING_ID) {
+
+      return message.reply(
+        `"That matter concerns the King alone."`
+      );
+
+    }
 
     const reply =
       responses[Math.floor(Math.random() * responses.length)];
@@ -169,4 +180,5 @@ module.exports = {
     message.reply(reply);
 
   }
+
 };
