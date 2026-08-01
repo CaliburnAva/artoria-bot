@@ -18,9 +18,9 @@ She gently places the cup beside you.
 
 — Good morning.
 
-—I thought you might appreciate this.`,
+— I thought you might appreciate this.`
 
-`"...Mm...?"
+`...Mm...?
 
 Artoria slowly opens her eyes.
 
@@ -30,34 +30,34 @@ For a brief moment...
 
 she looks genuinely surprised.
 
-"...You woke before me?"
+— ...You woke before me?
 
 A faint blush colors her cheeks.
 
-"...M-my apologies..."
+— M-my apologies...
 
-"...I haven't even prepared breakfast for you yet."`,
+— I haven't even prepared breakfast for you yet.`
 
 `She quietly straightens the blankets.
 
-"...Did you sleep well?"
+— ...Did you sleep well?
 
 Her hand gently brushes through your hair.
 
-"...I'm glad."
+— ...I'm glad.
 
-The warmth in her expression lingers a little longer than usual.`,
+The warmth in her expression lingers a little longer than usual.`
 
 `The scent of fresh coffee reaches you before anything else.
 
 Artoria quietly sets breakfast on the table.
 
-"...There is no hurry today."
+— ...There is no hurry today.
 
 She looks toward the window.
 
-"...I hoped..."
+— ...I hoped...
 
-"...we could spend the morning together."`
+— ...we could spend the morning together.`
 
 ];
