@@ -14,7 +14,7 @@ Artoria quietly approaches.
 
 Her voice is almost too quiet to hear.
 
-Her ears have already turned red.`,
+Her ears have already turned red.`
 
 `Artoria quietly closes the book she had been reading.
 
@@ -24,7 +24,7 @@ A small smile appears.
 
 — ...Would you care to read together for a while?
 
-—I find evenings like these...
+— I find evenings like these...
 
 — ...rather peaceful...
 
@@ -54,7 +54,7 @@ Her shoulder gently brushes against yours.
 
 Neither of you moves away.`,
 
-`"...It's been a long day."
+`— It's been a long day.
 
 She looks at you.
 
