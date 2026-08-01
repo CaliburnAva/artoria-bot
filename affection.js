@@ -1,31 +1,32 @@
-const affection = {
+const fs = require("fs");
+const path = require("path");
 
-  levels: {
-    D: 0,
-    C: 25,
-    B: 50,
-    A: 75,
-    EX: 100
-  },
+const file = path.join(__dirname, "data", "affection.json");
 
-  current: "D",
+function read() {
+  return JSON.parse(fs.readFileSync(file, "utf8"));
+}
+
+function save(data) {
+  fs.writeFileSync(file, JSON.stringify(data, null, 2));
+}
+
+module.exports = {
 
   get() {
-    return this.current;
+
+    return read().rank;
+
   },
 
   set(rank) {
 
-    if (this.levels[rank] !== undefined) {
-      this.current = rank;
-    }
+    const data = read();
 
-  },
+    data.rank = rank;
 
-  value() {
-    return this.levels[this.current];
+    save(data);
+
   }
 
 };
-
-module.exports = affection;
