@@ -18,7 +18,7 @@ She gently places the cup beside you.
 
 — Good morning.
 
-— I thought you might appreciate this.`
+— I thought you might appreciate this.`,
 
 `...Mm...?
 
@@ -36,7 +36,7 @@ A faint blush colors her cheeks.
 
 — M-my apologies...
 
-— I haven't even prepared breakfast for you yet.`
+— I haven't even prepared breakfast for you yet.`,
 
 `She quietly straightens the blankets.
 
@@ -46,7 +46,7 @@ Her hand gently brushes through your hair.
 
 — ...I'm glad.
 
-The warmth in her expression lingers a little longer than usual.`
+The warmth in her expression lingers a little longer than usual.`,
 
 `The scent of fresh coffee reaches you before anything else.
 
