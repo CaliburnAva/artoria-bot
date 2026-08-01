@@ -1,6 +1,7 @@
 const { Client, GatewayIntentBits } = require("discord.js");
 
 const wife = require("./commands/wife");
+const hug = require("./commands/hug");
 
 const client = new Client({
   intents: [
@@ -20,6 +21,10 @@ client.on("messageCreate", (message) => {
 
   if (message.content === "!wife") {
     wife.execute(message);
+  }
+
+  if (message.content === "!hug") {
+    hug.execute(message);
   }
 
 });
