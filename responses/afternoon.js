@@ -32,13 +32,13 @@ She looks toward you.
 
 — ...Would you care to read together?
 
-"..."
+...
 
 — I find afternoons like these...
 
 — ...far more enjoyable...
 
-— ...when you're beside me.`,
+— ...when you're beside me.`
 
 `Fresh coffee rests between the two of you.
 
@@ -56,7 +56,7 @@ She never says it aloud...
 
 `She finishes organizing the last few documents.
 
-"..."
+...
 
 Her shoulders visibly relax.
 
