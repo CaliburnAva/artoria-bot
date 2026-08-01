@@ -2,10 +2,10 @@ const { KING_ID } = require("../config");
 
 const affection = require("../affection");
 
-const morning = require("../responses/morning");
-const afternoon = require("../responses/afternoon");
-const evening = require("../responses/evening");
-const midnight = require("../responses/midnight");
+const morning = require("../responses/wife/morning");
+const afternoon = require("../responses/wife/afternoon");
+const evening = require("../responses/wife/evening");
+const midnight = require("../responses/wife/midnight");
 
 function random(array) {
   return array[Math.floor(Math.random() * array.length)];
