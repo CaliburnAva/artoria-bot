@@ -33,7 +33,7 @@ module.exports = {
 
       pool = afternoon;
 
-    } else if (hour >= 18 && hour < 23) {
+    } else if (hour >= 18 && hour < 24) {
 
       pool = evening;
 
