@@ -23,19 +23,25 @@ module.exports = {
 
     }
 
-    const hour = new Date().getHours();
+    const hour = new Date().toLocaleString("en-US", {
+  timeZone: "America/Sao_Paulo",
+  hour: "numeric",
+  hour12: false
+});
+
+const currentHour = Number(hour);
 
     let pool;
 
-    if (hour >= 5 && hour < 12) {
+    if (currentHour >= 5 && currentHour < 12) {
 
       pool = morning;
 
-    } else if (hour >= 12 && hour < 18) {
+    } else if (currentHour >= 12 && currentHour < 18) {
 
       pool = afternoon;
 
-    } else if (hour >= 18 && hour < 24) {
+    } else if (currentHour >= 18 && currentHour < 24) {
 
       pool = evening;
 
