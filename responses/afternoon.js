@@ -38,7 +38,7 @@ She looks toward you.
 
 — ...far more enjoyable...
 
-— ...when you're beside me.`
+— ...when you're beside me.`,
 
 `Fresh coffee rests between the two of you.
 
