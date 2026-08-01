@@ -12,7 +12,7 @@ Artoria quietly finds you still awake.
 
 She gently takes your hand.
 
-"..."
+...
 
 — Come.
 
@@ -42,11 +42,11 @@ After a long silence...
 
 she gently moves a little closer.
 
-"..."
+...
 
 She falls asleep holding your hand.`,
 
-`"...Still awake?"
+`— ...Still awake?
 
 Artoria smiles faintly.
 
@@ -70,7 +70,7 @@ She hesitates...
 
 before softly kissing your forehead.
 
-"..."
+...
 
 She remains there until your breathing grows calm.`
 
