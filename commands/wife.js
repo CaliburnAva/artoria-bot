@@ -27,6 +27,9 @@ module.exports = {
   timeZone: "America/Sao_Paulo",
   hour: "numeric",
   hour12: false
+});
+
+const currentHour = Number(hour);
 
     let pool;
 
