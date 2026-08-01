@@ -21,7 +21,11 @@ module.exports = {
 
     }
 
-    const hour = new Date().getHours();
+    const hour = new Date(
+  new Date().toLocaleString("en-US", {
+    timeZone: "America/Sao_Paulo"
+  })
+).getHours();
 
     let pool;
 
